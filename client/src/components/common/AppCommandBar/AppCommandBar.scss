@@ -1,0 +1,37 @@
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT license.
+
+@import "../../../theme/theme";
+
+.app-commandbar-container {
+  flex: 1
+}
+
+.app-toolbarButtons {
+  height: 56px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.app-commandbar .ms-CommandBar {
+  height: 56px;
+}
+
+.settings-button {
+  .ms-Button-flexContainer {
+    i {
+      &:nth-child(2) {
+        display: none;
+      }
+    }
+  }
+}
+
+.delete-button {
+  i {
+    border-right: 1px solid $backgroundColor4;
+    padding-right: 15px;
+    margin-right: 0;
+  }
+}
